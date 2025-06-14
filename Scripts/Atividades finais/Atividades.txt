@@ -1,0 +1,40 @@
+Exercicio de Shell Script:
+ 
+
+Crie um script que imprima uma mensagem de “Olá mundo!”.
+
+ 
+
+Crie um script que peça ao usuário para inserir seu nome e, em seguida, imprima uma mensagem de saudação usando essa entrada.
+
+ 
+
+Escreva um script que solicite um número do usuário. Se o número for positivo, exiba "Número positivo". Se for negativo, exiba "Número negativo". Se for zero, exiba "Zero".
+
+ 
+
+Escreva um script que solicite um número do usuário e crie essa quantidade de arquivos logs com a extensão “.txt”.
+
+ 
+
+Escreva um script para renomear todos os arquivos do exercicio anterior de “.txt” para “.log”. DICA: Use o comando sed para realizar a substituição das strings
+
+ 
+
+Crie um script que solicite ao usuário um número e imprima a tabela de multiplicação desse número até 10.
+
+ 
+
+Escreva um script que solicite ao usuário o nome de um arquivo ou diretório. Após receber a entrada, o script deve determinar se é um arquivo, um diretório ou outro tipo. Além disso, o script deve listar as permissões associadas ao arquivo ou diretório fornecido.
+
+ 
+
+Escreva um script que receba como argumento o nome de um arquivo ou diretório. O script deve determinar se é um arquivo, um diretório ou outro tipo. Além disso, o script deve listar as permissões associadas ao arquivo ou diretório fornecido.
+
+ 
+
+Crie um jogo simples de adivinhação. O script deve gerar um número aleatório e pedir ao usuário para adivinhar. Dê dicas se o número é maior ou menor. Continue até que o usuário adivinhe corretamente. DICA: Use a variável RANDOM para gerar números inteiros aleatórios.
+
+ 
+
+Escreva um script que imprima a quantidade de processos em execução. DICA: Use o comando wc para contar linha
