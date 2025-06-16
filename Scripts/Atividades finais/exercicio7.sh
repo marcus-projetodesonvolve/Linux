@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Solicita ao usuário o nome de um arquivo ou diretório
-echo "Digite o nome de um arquivo ou diretório: " 
-read entrada
+read -p "Digite o nome de um arquivo ou diretório: " entrada
 
 # Verifica se a entrada existe
 if [ -e "$entrada" ]; then
