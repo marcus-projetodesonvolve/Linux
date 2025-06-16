@@ -6,7 +6,8 @@ read numero
 
 #criando a tabela de multiplicacao desse numero
 echo "A Tabela de Multiplicação do $numero: "
-for i in {1..10}; do
-	resultado=$(echo "$numero * $i" )
+for i in {1..10} 
+do
+	resultado=$(($numero * $i))
 	echo "$numero x $i = $resultado"
 done
