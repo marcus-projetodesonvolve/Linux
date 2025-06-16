@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Digite uma entrada: "
 
-entrada="$1"
+read entrada
 
 # Determina o tipo de entrada
 if [ -f "$entrada" ]; then
