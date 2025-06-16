@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Solicita ao usuário o nome do arquivo ou diretório
-"Digite o nome de um arquivo ou diretório: "
+echo "Digite o nome de um arquivo ou diretório: "
 read entrada
 
 # Verifica o tipo de entrada
