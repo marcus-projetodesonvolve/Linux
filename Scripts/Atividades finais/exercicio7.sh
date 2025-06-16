@@ -6,11 +6,11 @@ read entrada
 
 # Verifica o tipo de entrada
 if [ -f "$entrada" ]; then
-    echo "'$entrada' é um **arquivo regular**."
+    echo "'$entrada' é um Arquivo regular."
 elif [ -d "$entrada" ]; then
-    echo "'$entrada' é um **diretório**."
+    echo "'$entrada' é um Diretório"
 else
-    echo "'$entrada' é de **outro tipo** (ou não existe)."
+    echo "'$entrada' é de outro tipo (ou não existe)."
 fi
 
 # Lista as permissões associadas à entrada
